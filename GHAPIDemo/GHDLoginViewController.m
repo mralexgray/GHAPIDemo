@@ -57,7 +57,7 @@
 	}];
 
 	// Every time loginCommand is triggered…
-	RACSignal *loginResult = [self.loginCommand sequenceMany:^{
+	RACSignal *loginResult = [[self.loginCommand sequenceMany:^{
 		@strongify(self);
 
 		// Try logging in, and return the result.
@@ -66,7 +66,7 @@
 		// a RACEvent. This means that even if the API hits an error, the
 		// loginResult signal will still be valid.
 		return [[self.client login] materialize];
-	}];
+	}] replayLazily];
 
 	// Since we used -materialize above, we'll need to filter out the specific
 	// error or success cases.
