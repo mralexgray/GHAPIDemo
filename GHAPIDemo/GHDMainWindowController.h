@@ -9,6 +9,6 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface GHDMainWindowController : NSWindowController
+@interface GHDMainWindowController : NSWindowController <NSApplicationDelegate>
 
 @end

@@ -11,14 +11,10 @@
 		8844775C15237CCD00958F44 /* GHGitHubOrg.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844775B15237CCD00958F44 /* GHGitHubOrg.m */; };
 		8844777915239DB100958F44 /* GHGitHubObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844777815239DB000958F44 /* GHGitHubObject.m */; };
 		88485A7F150FCDF200DC4A1F /* GHDUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88485A7E150FCDF200DC4A1F /* GHDUserViewController.m */; };
-		88485A82150FCE0700DC4A1F /* GHDUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88485A81150FCE0700DC4A1F /* GHDUserView.m */; };
 		88485A84150FCE1300DC4A1F /* GHDUserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88485A83150FCE1300DC4A1F /* GHDUserView.xib */; };
 		88485A88150FCE4500DC4A1F /* NSView+GHDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 88485A87150FCE4500DC4A1F /* NSView+GHDExtensions.m */; };
 		884E04961505ACF000035AFC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E04951505ACF000035AFC /* Cocoa.framework */; };
-		884E04A01505ACF000035AFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 884E049E1505ACF000035AFC /* InfoPlist.strings */; };
 		884E04A21505ACF000035AFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E04A11505ACF000035AFC /* main.m */; };
-		884E04A61505ACF000035AFC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 884E04A41505ACF000035AFC /* Credits.rtf */; };
-		884E04A91505ACF000035AFC /* GHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E04A81505ACF000035AFC /* GHDAppDelegate.m */; };
 		884E04AC1505ACF000035AFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884E04AA1505ACF000035AFC /* MainMenu.xib */; };
 		884E04B41505ACF000035AFC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E04B31505ACF000035AFC /* SenTestingKit.framework */; };
 		884E04B51505ACF000035AFC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884E04951505ACF000035AFC /* Cocoa.framework */; };
@@ -26,7 +22,6 @@
 		884E04EF1505AD4F00035AFC /* GHDMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E04ED1505AD4F00035AFC /* GHDMainWindowController.m */; };
 		884E04F01505AD4F00035AFC /* GHDMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884E04EE1505AD4F00035AFC /* GHDMainWindowController.xib */; };
 		884E04F41505AEB200035AFC /* GHDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E04F21505AEB200035AFC /* GHDLoginViewController.m */; };
-		884E04F81505B0A000035AFC /* GHDLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 884E04F71505B0A000035AFC /* GHDLoginView.m */; };
 		884E04FA1505B0AF00035AFC /* GHDLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884E04F91505B0AF00035AFC /* GHDLoginView.xib */; };
 		886F988B15065CB400A20BE7 /* GHDLoginViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 886F988A15065CB400A20BE7 /* GHDLoginViewSpec.m */; };
 		886F99531506C3FC00A20BE7 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 886F993F1506C3FC00A20BE7 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -178,8 +173,6 @@
 		8844777815239DB000958F44 /* GHGitHubObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGitHubObject.m; sourceTree = "<group>"; };
 		88485A7D150FCDF200DC4A1F /* GHDUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDUserViewController.h; sourceTree = "<group>"; };
 		88485A7E150FCDF200DC4A1F /* GHDUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDUserViewController.m; sourceTree = "<group>"; };
-		88485A80150FCE0700DC4A1F /* GHDUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDUserView.h; sourceTree = "<group>"; };
-		88485A81150FCE0700DC4A1F /* GHDUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDUserView.m; sourceTree = "<group>"; };
 		88485A83150FCE1300DC4A1F /* GHDUserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GHDUserView.xib; sourceTree = "<group>"; };
 		88485A86150FCE4500DC4A1F /* NSView+GHDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+GHDExtensions.h"; sourceTree = "<group>"; };
 		88485A87150FCE4500DC4A1F /* NSView+GHDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+GHDExtensions.m"; sourceTree = "<group>"; };
@@ -189,12 +182,8 @@
 		884E04991505ACF000035AFC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		884E049A1505ACF000035AFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		884E049D1505ACF000035AFC /* GHAPIDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHAPIDemo-Info.plist"; sourceTree = "<group>"; };
-		884E049F1505ACF000035AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		884E04A11505ACF000035AFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		884E04A31505ACF000035AFC /* GHAPIDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHAPIDemo-Prefix.pch"; sourceTree = "<group>"; };
-		884E04A51505ACF000035AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		884E04A71505ACF000035AFC /* GHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHDAppDelegate.h; sourceTree = "<group>"; };
-		884E04A81505ACF000035AFC /* GHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHDAppDelegate.m; sourceTree = "<group>"; };
 		884E04AB1505ACF000035AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		884E04B21505ACF000035AFC /* GHAPIDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHAPIDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		884E04B31505ACF000035AFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -206,8 +195,6 @@
 		884E04EE1505AD4F00035AFC /* GHDMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GHDMainWindowController.xib; sourceTree = "<group>"; };
 		884E04F11505AEB200035AFC /* GHDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDLoginViewController.h; sourceTree = "<group>"; };
 		884E04F21505AEB200035AFC /* GHDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDLoginViewController.m; sourceTree = "<group>"; };
-		884E04F61505B0A000035AFC /* GHDLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDLoginView.h; sourceTree = "<group>"; };
-		884E04F71505B0A000035AFC /* GHDLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDLoginView.m; sourceTree = "<group>"; };
 		884E04F91505B0AF00035AFC /* GHDLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GHDLoginView.xib; sourceTree = "<group>"; };
 		886F986515065BEF00A20BE7 /* Expecta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Expecta.xcodeproj; path = ../external/ReactiveCocoa/external/expecta/Expecta.xcodeproj; sourceTree = "<group>"; };
 		886F987415065BF500A20BE7 /* Specta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Specta.xcodeproj; path = ../external/ReactiveCocoa/external/specta/Specta.xcodeproj; sourceTree = "<group>"; };
@@ -332,21 +319,15 @@
 		884E049B1505ACF000035AFC /* GHAPIDemo */ = {
 			isa = PBXGroup;
 			children = (
-				884E04A71505ACF000035AFC /* GHDAppDelegate.h */,
-				884E04A81505ACF000035AFC /* GHDAppDelegate.m */,
 				884E04AA1505ACF000035AFC /* MainMenu.xib */,
 				884E04EC1505AD4F00035AFC /* GHDMainWindowController.h */,
 				884E04ED1505AD4F00035AFC /* GHDMainWindowController.m */,
 				884E04EE1505AD4F00035AFC /* GHDMainWindowController.xib */,
 				884E04F11505AEB200035AFC /* GHDLoginViewController.h */,
 				884E04F21505AEB200035AFC /* GHDLoginViewController.m */,
-				884E04F61505B0A000035AFC /* GHDLoginView.h */,
-				884E04F71505B0A000035AFC /* GHDLoginView.m */,
 				884E04F91505B0AF00035AFC /* GHDLoginView.xib */,
 				88485A7D150FCDF200DC4A1F /* GHDUserViewController.h */,
 				88485A7E150FCDF200DC4A1F /* GHDUserViewController.m */,
-				88485A80150FCE0700DC4A1F /* GHDUserView.h */,
-				88485A81150FCE0700DC4A1F /* GHDUserView.m */,
 				88485A83150FCE1300DC4A1F /* GHDUserView.xib */,
 				88485A85150FCE1B00DC4A1F /* Extensions */,
 				88485A7C150FCDD400DC4A1F /* GitHub API */,
@@ -359,10 +340,8 @@
 			isa = PBXGroup;
 			children = (
 				884E049D1505ACF000035AFC /* GHAPIDemo-Info.plist */,
-				884E049E1505ACF000035AFC /* InfoPlist.strings */,
 				884E04A11505ACF000035AFC /* main.m */,
 				884E04A31505ACF000035AFC /* GHAPIDemo-Prefix.pch */,
-				884E04A41505ACF000035AFC /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -616,8 +595,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884E04A01505ACF000035AFC /* InfoPlist.strings in Resources */,
-				884E04A61505ACF000035AFC /* Credits.rtf in Resources */,
 				884E04AC1505ACF000035AFC /* MainMenu.xib in Resources */,
 				884E04F01505AD4F00035AFC /* GHDMainWindowController.xib in Resources */,
 				884E04FA1505B0AF00035AFC /* GHDLoginView.xib in Resources */,
@@ -657,10 +634,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				884E04A21505ACF000035AFC /* main.m in Sources */,
-				884E04A91505ACF000035AFC /* GHDAppDelegate.m in Sources */,
 				884E04EF1505AD4F00035AFC /* GHDMainWindowController.m in Sources */,
 				884E04F41505AEB200035AFC /* GHDLoginViewController.m in Sources */,
-				884E04F81505B0A000035AFC /* GHDLoginView.m in Sources */,
 				886F99531506C3FC00A20BE7 /* AFHTTPClient.m in Sources */,
 				886F99541506C3FC00A20BE7 /* AFHTTPRequestOperation.m in Sources */,
 				886F99551506C3FC00A20BE7 /* AFImageRequestOperation.m in Sources */,
@@ -672,7 +647,6 @@
 				88BC15931506F12600F5F6D9 /* GHGitHubClient.m in Sources */,
 				88DA30B51507BFE700C19D0F /* GHGitHubUser.m in Sources */,
 				88485A7F150FCDF200DC4A1F /* GHDUserViewController.m in Sources */,
-				88485A82150FCE0700DC4A1F /* GHDUserView.m in Sources */,
 				88485A88150FCE4500DC4A1F /* NSView+GHDExtensions.m in Sources */,
 				8844775915237C0D00958F44 /* GHGitHubTeam.m in Sources */,
 				8844775C15237CCD00958F44 /* GHGitHubOrg.m in Sources */,
@@ -715,22 +689,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		884E049E1505ACF000035AFC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				884E049F1505ACF000035AFC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		884E04A41505ACF000035AFC /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				884E04A51505ACF000035AFC /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
 		884E04AA1505ACF000035AFC /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -12,50 +12,31 @@
 #import "GHDUserViewController.h"
 #import "GHGitHubUser.h"
 
-@interface GHDMainWindowController ()
-@property (nonatomic, strong) NSViewController *currentViewController;
+@interface 		GHDMainWindowController( )
+@property (nonatomic) NSViewController * currentViewController;
 @end
-
 
 @implementation GHDMainWindowController
 
-- (id)init {
-	self = [super initWithWindowNibName:NSStringFromClass([self class]) owner:self];
-	if(self == nil) return nil;
-	
-	return self;
-}
+#pragma mark API
 
+- (void)setCurrentViewController:(NSViewController *)vc { if(_currentViewController == vc) return;
+
+	self.window.contentView = (_currentViewController = vc).view;
+}
 
 #pragma mark NSWindowController
 
-- (void)windowDidLoad {
-    [super windowDidLoad];
-	
-	GHDLoginViewController *loginViewController = [[GHDLoginViewController alloc] init];
-	self.currentViewController = loginViewController;
-	
-	[[[loginViewController.didLoginSubject 
-		filter:^ BOOL (id x) {
-			return x != nil;
-		}] 
-		map:^(id x) {
-			return [[GHDUserViewController alloc] initWithUserAccount:x];
-		}]
-		toProperty:@keypath(self.currentViewController) onObject:self];
+- (void)windowDidLoad {	[super windowDidLoad];
+
+	[[[((GHDLoginViewController*)(self.currentViewController = GHDLoginViewController.new)).didLoginSubject
+		filter:^BOOL(id x){ return x != nil; 	 		 												}]
+			map:	  ^(id x){ return [GHDUserViewController.alloc initWithUserAccount:x];  }]
+  toProperty:@keypath(self.currentViewController) 				             onObject:self	 ];
 }
 
+- (id)init { return self = [super initWithWindowNibName:NSStringFromClass(self.class) owner:self] ?: nil; }
 
-#pragma mark API
-
-@synthesize currentViewController;
-
-- (void)setCurrentViewController:(NSViewController *)vc {
-	if(currentViewController == vc) return;
-	
-	currentViewController = vc;
-	
-	self.window.contentView = self.currentViewController.view;
-}
+- (void) applicationDidFinishLaunching:(NSNotification*)n { [self.window makeKeyAndOrderFront:self];      }
 
 @end
